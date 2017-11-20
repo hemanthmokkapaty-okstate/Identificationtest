@@ -12,6 +12,7 @@
     $result = array('area' => $area);
     
     // Inform the receiver of the response that this is JSON data.
+    //New comment
     header('Content-Type: application/json');
     
     // Convert the result to JSON and return it.
